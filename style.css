@@ -1,0 +1,65 @@
+/* Reset básico para padronizar os estilos entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* Variáveis css para reutilização de cores e tamanhos */
+  :root {
+    --primary: #17243f;
+    --radius: 6px;
+  }
+  
+  /* Estilos globais para todo o corpo da página */
+  body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 800px; /*largura*/
+    margin: 40px auto; /*espaço externo*/
+    padding: 24px; /*espaço interno*/
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .container2 {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 24px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Cabeçalho com fundo preto e texto branco */
+  .header {
+    background-color: var(--primary);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilo do título principal */
+  .title {
+    margin: 0;
+  }
+  
+  /* Cartão que envolve conteúdo */
+  .card {
+    margin-top: 20px;
+  }
+  
+  /* Estilização do botão com cor e borda arredondada */
+  .button {
+    background: var(--primary);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: var(--radius);
+    cursor: pointer;
+  }
+  
